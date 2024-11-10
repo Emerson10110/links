@@ -1,6 +1,7 @@
 import { StyleSheet } from "react-native"
 
 import { colors } from "@/styles/colors"
+import { Header } from "react-native/Libraries/NewAppScreen"
 
 export const style = StyleSheet.create({
     container: {
@@ -9,6 +10,7 @@ export const style = StyleSheet.create({
     title: {
         color: colors.green[900],
         fontSize: 22,
-    }
-
+    },
+    header: {},
+    logo: {},
 })
