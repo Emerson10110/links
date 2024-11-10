@@ -1,12 +1,14 @@
-import { Text, View } from "react-native"
+import { View, Image } from "react-native"
 
 import { style } from "./style";
 
 export default function Index(){
-    return(
-    <view style={style.container}>
-        <Text style={style.title}>Hell react native!</Text>
-    </view>
+    return (
+        <view style={style.container}>
+           <View style={style.header}>
+                <Image source={require("@/assets/logo.png")} />
+           </View>
+        </view>
     )
 }
 
