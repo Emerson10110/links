@@ -5,6 +5,7 @@ import { style } from "./style"
 import { colors } from "@/styles/colors"
 
 import { Category } from "@/components/category"
+import React from "react"
 
 export default function Index() {
     return (
@@ -21,4 +22,3 @@ export default function Index() {
         </view>
     )
 }
-
